@@ -1,0 +1,198 @@
+1-git config: Configuração do Git.
+
+2-git add: Adiciona mudanças no diretório de trabalho para o index.
+
+3-git commit: Grava o estado do index no repositório.
+
+4-git status: Exibe o status das alterações no repositório.
+
+5-git push: Atualiza referências remotas junto com objetos associados.
+
+6-git pull: Atualiza o repositório local com a versão mais recente do branch remoto.
+
+7-git branch: Lista, cria ou exclui branches.
+
+8-git checkout: Muda branches ou restaura arquivos de trabalho.
+
+9-git merge: Une duas ou mais branches.
+
+10-git log: Exibe o histórico de commits.
+
+11-git tag: Cria, lista ou exclui tags.
+
+12-git fetch: Busca branches e/ou tags de um repositório remoto.
+
+13-git reset: Reseta o index e o diretório de trabalho para o estado especificado.
+
+14-git clone: Clona um repositório existente.
+
+15-git stash: Salva mudanças temporariamente.
+
+16-git diff: Mostra mudanças entre commits, commit e working tree, etc.
+
+17-git rebase: Aplica commits de um branch em outro.
+
+18-git remote: Gerencia repositórios remotos.
+
+19-git rm: Remove arquivos do index e do diretório de trabalho.
+
+20-git grep: Busca padrões em um repositório.
+
+21-git show: Mostra vários tipos de objetos.
+
+22-git bisect: Encontra o commit que introduziu um bug usando busca binária.
+
+23-git blame: Mostra quem modificou cada linha de um arquivo.
+
+24-git cherry-pick: Aplica os commits especificados do branch para o branch atual.
+
+25-git archive: Cria um arquivo zip ou tar contendo o conteúdo de um branch.
+
+26-git submodule: Gerencia submódulos do Git.
+
+27-git init --bare: Inicia um repositório Git sem diretório de trabalho.
+
+28-git reflog: Gerencia registros de referência de HEAD.
+
+29-git revert: Desfaz um commit existente.
+
+30-git log --graph: Exibe o histórico de commits em forma de grafo.
+
+31-git log --oneline: Exibe o histórico de commits em uma linha por commit.
+
+32-git log --author: Filtra o histórico de commits por autor.
+
+33-git log --since / git log --until: Filtra o histórico de commits por data.
+
+34-git log --grep: Filtra o histórico de commits por mensagem de commit.
+
+35-git log <file>: Exibe o histórico de commits de um arquivo específico.
+
+36-git commit --amend: Modifica o commit mais recente.
+
+37-git commit --fixup: Cria um commit de "fixup".
+
+38-git commit --squash: Combina commits em um único commit.
+39-git blame -L: Mostra quem modificou uma faixa específica de linhas de um arquivo.
+
+40-git diff --cached: Mostra as mudanças no index.
+
+41-git diff <commit>: Mostra as mudanças entre o commit especificado e o working tree.
+
+42-git diff <commit1>..<commit2>: Mostra as diferenças entre dois commits.
+
+43-git branch -d: Exclui um branch especificado.
+
+44-git branch -m: Renomeia um branch especificado.
+
+45-git checkout -b: Cria um novo branch e muda para ele.
+
+46-git merge --no-ff: Realiza um merge, mesmo que a fast-forward seja possível.
+
+47-git log --decorate: Exibe tags e branch names nos logs.
+
+48-git stash pop: Aplica o último stash e o remove da lista de stashes.
+
+49-git stash list: Lista todos os stashes.
+
+50-git remote add: Adiciona um repositório remoto.
+
+51-git remote remove: Remove um repositório remoto.
+
+52-git remote -v: Lista todos os repositórios remotos.
+
+53-git fetch --prune: Atualiza o repositório local com o repositório remoto e remove referências locais para branches remotos deletados.
+
+54-git diff --name-only: Lista apenas os arquivos modificados.
+
+55-git diff --stat: Exibe estatísticas resumidas das mudanças.
+
+56-git rebase -i: Reescreve a história do commit interativamente.
+
+57-git rebase --onto: Aplica uma sequência de commits de um branch para outro.
+
+58-git rebase -p: Preserva merges durante o rebase.
+
+59-git rebase --abort: Interrompe um rebase em andamento e retorna ao estado anterior.
+
+60-git remote show: Exibe informações sobre um repositório remoto.
+
+61-git log --grep=<pattern>: Filtra o histórico de commits por padrão de mensagem de commit.
+
+62-git grep <pattern>: Procura por padrões em arquivos do repositório.
+
+63-git add -p: Interativamente adiciona trechos de arquivos ao index.
+
+64-git commit --no-verify: Faz um commit sem executar os ganchos de pré-commit.
+
+65-git push --force: Força o push, substituindo o histórico remoto.
+
+66-git push --tags: Envia tags para o repositório remoto.
+
+67-git pull --rebase: Realiza um pull e rebase em vez de um merge.
+
+68-git cherry-pick --continue: Continua com o cherry-pick após resolver conflitos.
+
+69-git cherry-pick --abort: Abandona o cherry-pick em andamento e retorna ao estado anterior.
+
+70-git submodule init: Inicializa submódulos.
+
+71-git submodule update: Atualiza submódulos para a revisão especificada.
+
+72-git submodule foreach: Executa um comando em cada submódulo.
+
+73-git log --format: Formata a saída do log.
+
+74-git log --grep=<pattern> --author=<name>: Filtra o histórico de commits por padrão e autor.
+
+75-git revert --no-commit: Desfaz alterações no index e no diretório de trabalho.
+
+76-git reset --soft: Move o HEAD e o branch atual para outro commit.
+
+77-git reset --mixed: Reseta o index e move o HEAD para outro commit.
+
+78-git reset --hard: Reseta o index, a árvore de trabalho e o HEAD para outro commit.
+
+79-git reset HEAD <file>: Remove um arquivo do index.
+
+80-git reset --merge: Reseta o index e o working tree para o estado de um merge inacabado.
+
+81-git reflog show: Exibe o reflog para uma referência específica.
+
+82-git reflog expire: Limpa entradas antigas do reflog.
+
+83-git branch -r: Lista branches remotos.
+
+84-git branch -a: Lista todos os branches locais e remotos.
+
+85-git merge --abort: Abandona um merge em andamento e retorna ao estado anterior.
+
+86-git log --since=<date>: Filtra o histórico de commits desde uma data específica.
+
+87-git log --until=<date>: Filtra o histórico de commits até uma data específica.
+
+88-git log --author=<pattern>: Filtra o histórico de commits por padrão de autor.
+
+89-git log --format=<format>: Formata a saída do log conforme o especificado.
+
+90-git log -- <path>: Exibe o histórico de commits para um arquivo específico.
+
+91-git add -u: Adiciona todas as modificações e exclusões, mas não novos arquivos.
+
+92-git add -i: Interativamente adiciona mudanças ao index.
+
+93-git commit --dry-run: Executa um commit, mas não salva as alterações.
+
+94-git push --dry-run: Simula o push, mostrando o que seria enviado.
+
+95-git pull --no-rebase: Realiza um pull sem rebase.
+
+96-git push --all: Envia todos os branches locais para o repositório remoto.
+
+97-git push --force-with-lease: Força o push, mas verifica se o branch remoto mudou.
+
+98-git push <remote> --delete <branch>: Remove um branch remoto.
+
+99-git stash drop: Remove um stash específico da lista de stashes.
+
+100-git init: Inicia um novo repositório Git.
